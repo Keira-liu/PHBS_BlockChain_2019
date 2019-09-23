@@ -10,8 +10,8 @@ Student ID：1801212888
  ——————
 
 ## Summary
-# TxHandler is a class to handler the trasnaction of Scrooge Coin, the main function of which is to Verify the validness of the transaction and process the transaction to generate a ledger record.
-# I designed 3 methods
+### TxHandler is a class to handler the trasnaction of Scrooge Coin, the main function of which is to Verify the validness of the transaction and process the transaction to generate a ledger record.
+### I designed 3 methods
 - *public boolean isValidTx(Transaction tx)* is to verify the transaction, returning true if the tx meet the 5 required rules.
 - *public Transaction[] handleTxs(Transaction[] possibleTxs)* is to remove teh utxo that has been redeemed in the trasnactions as well as the new utxo produced by the transactions.
 - *public boolean assetverify(UTXO utxo)* is to assert that the utxoPool contains the input utxo, making preparations for the testing code.
@@ -21,7 +21,7 @@ Student ID：1801212888
 
 ## Testing part
 
-# In order to test whether the TxHandler has satisfied the targets:
+### In order to test whether the TxHandler has satisfied the targets:
 >(1)all outputs claimed by tx are in the current UTXO pool
 >(2)the signatures on each input of tx are valid
 >(3)no UTXO is claimed multiple times by tx

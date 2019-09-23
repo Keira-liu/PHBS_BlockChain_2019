@@ -1,6 +1,6 @@
 # PHBS_BlockChain_2019
-Name:刘安屹
-Student ID：1801212888
+Name:刘安屹  <br>
+Student ID:1801212888
 
 
 
@@ -44,5 +44,5 @@ Student ID：1801212888
 >(6)public void testIsValidTx6()  <br>
    verify that a transaction whose sum of input values is smaller than the sum of its output values will be rejected  <br>
 
-4.Results of testing:The functions pass all the tests above, with expected results returning
+4.Results of testing:The functions pass all the tests above, with expected results returning:
 ![](https://github.com/Keira-liu/PHBS_BlockChain_2019/raw/master/Testing%20Results.png)

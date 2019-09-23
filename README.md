@@ -28,7 +28,7 @@ Student ID:1801212888
 >(5)the sum of tx’s input values is greater than or equal to the sum of its output values; and false otherwise
 
 1.I build a class to generate keys of four users A,B,C,D as well as four arrays to store the hashes of transactions;  <br>
-2.In the @Before function,I make four transactions to give users A,B,C,D 10 coins respectively and add those utxos into the UTXOPool for testing in the bext steps;  <br>
+2.In the @Before function, I make four transactions to give users A,B,C,D 10 coins respectively and add those utxos into the UTXOPool for testing in the next steps;  <br>
 
 3.I have designed following 6 senarios to test:
 >(1)public void testIsValidTx1()  <br>

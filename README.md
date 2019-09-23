@@ -34,7 +34,7 @@ Student ID:1801212888
 >(1)public void testIsValidTx1()  <br>
     verify that a normal transaction is allowed  <br>
 >(2)public void testIsValidTx2()  <br>
-   verify a transaction with a input that is not in the current URXOpool will be rejected  <br>
+   verify a transaction with a input that is not in the current UTXOpool will be rejected  <br>
 >(3)public void testIsValidTx3()  <br>
    verify that a transaction with a invalid signature will be rejected   <br>
 >(4)public void testIsValidTx4()  <br>

@@ -31,18 +31,18 @@ Student ID：1801212888
 2.In the @Before function,I make four transactions to give users A,B,C,D 10 coins respectively and add those utxos into the UTXOPool for testing in the bext steps;
 
 3.I have designed following 6 senarios to test:
->(1)public void testIsValidTx1()
-    verify that a normal transaction is allowed
->(2)public void testIsValidTx2()
-   verify a transaction with a input that is not in the current URXOpool will be rejected
->(3)public void testIsValidTx3()
-   verify that a transaction with a invalid signature will be rejected
->(4)public void testIsValidTx4()
-   verify that no UTXO can be claimed multiple times by tx
->(5)public void testIsValidTx5() 
-   verify that a transaction with a negative output will be rejected
->(6)public void testIsValidTx6()
-   verify that a transaction whose sum of input values is smaller than the sum of its output values will be rejected
+>(1)public void testIsValidTx1()  <br>
+    verify that a normal transaction is allowed  <br>
+>(2)public void testIsValidTx2()  <br>
+   verify a transaction with a input that is not in the current URXOpool will be rejected  <br>
+>(3)public void testIsValidTx3()  <br>
+   verify that a transaction with a invalid signature will be rejected   <br>
+>(4)public void testIsValidTx4()  <br>
+   verify that no UTXO can be claimed multiple times by tx  <br>
+>(5)public void testIsValidTx5() <br>
+   verify that a transaction with a negative output will be rejected  <br>
+>(6)public void testIsValidTx6()  <br>
+   verify that a transaction whose sum of input values is smaller than the sum of its output values will be rejected  <br>
 
 4.Results of testing:The functions pass all the tests above, with expected results returning
 ![](https://github.com/Keira-liu/PHBS_BlockChain_2019/raw/master/Testing%20Results.png)

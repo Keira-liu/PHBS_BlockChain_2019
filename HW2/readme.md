@@ -40,7 +40,7 @@ Student ID:1801212888
 1. I define a transaction that spend all 25 coins from the CoinBase of the given block. <br>
 2. I also define a signature to sign transaction as well as a keypair generator to generate random keypair.<br>
 
-3. I have designed following 8 senarios to test:
+3. I have designed following 8 tests:
 >(1)public void test1()  <br>
    Create a gensisBlock and adding it to a new BlockChain.  <br>
 >(2)public void test2()  <br>

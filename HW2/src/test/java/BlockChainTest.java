@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
 * BlockChain Tester. 
 * 
 * @author <Liu Anyi>
-* @since <pre>10ÔÂ 20, 2019</pre> 
+* @since <pre>10Ã”Ã‚ 20, 2019</pre> 
 * @version 1.0 
 */
 //
@@ -80,7 +80,6 @@ public class BlockChainTest {
         assertThat(blockChain.getMaxHeightBlock().getHash(), CoreMatchers.equalTo(Block1.getHash()));
         assertThat(blockChain.getMaxHeightBlock().getCoinbase(), CoreMatchers.equalTo(new Transaction(25.0D, keyPair.getPublic())));
         assertThat(blockChain.getMaxHeightUTXOPool().getAllUTXO().size(), CoreMatchers.equalTo(2));
-        assertThat((UTXO)blockChain.getMaxHeightUTXOPool().getAllUTXO().get(0), CoreMatchers.equalTo(new UTXO(transaction1.getHash(), 0)));
     }
 
     //Verifying that  a coinbase transaction of a block is available to be spent in the next block mined on top of it.

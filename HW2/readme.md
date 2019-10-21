@@ -63,4 +63,4 @@ Student ID:1801212888
    
 
 4.Results of testing:The functions pass all the tests above, with expected results returning:
-![image](https://github.com/Keira-liu/PHBS_BlockChain_2019/blob/master/HW2/TestResult.png）
+![image](https://github.com/Keira-liu/PHBS_BlockChain_2019/blob/master/HW2/TestResult.png)

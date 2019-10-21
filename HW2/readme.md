@@ -14,7 +14,7 @@ Student ID:1801212888
 
 ## Summary
 #### BlockChain is a class to receive incoming transactions and blocks and maintain and updated block chain with the new block created in the class BlockHandler.
-##### I designed a class BlockNode to store the block and its height,utxopool, transactionpool as well as its creating time
+##### I designed a class BlockNode to store the block and its height,utxopool, transactionpool as well as its creating time.
 ##### I designed 7 main methods:
 - *public void updateMaxHeightNode()*  is to update the maxHeightNode with the biggest height.If there are multiple blocks at the same height, return return the oldest block.
 - *public BlockChain(Block genesisBlock)*  is to create an empty block chain with just a genesis block.

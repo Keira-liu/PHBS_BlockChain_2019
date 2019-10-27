@@ -2,7 +2,7 @@
 
 
 1.	Motivation
-Miners are a very important part of bitcoin mechanism. The motivation of miners is profit. Their profit comes from two parts, block reward and transaction fees. Since after mining every 210000 blocks, block rewards will be halved (staring from 50 BTC, now is 12.5 BTC). With the decreasing of block rewards, transaction fees are becoming more and more important. With higher transaction fees, the transaction may be accepted by miners sooner. And the price of bitcoin can also influence the activity of bitcoin market. Therefore, we want to build a model between block rewards, transaction fees, price, and waiting time. Transaction makers and miners will make their choice according to their profits.
+Miners are a very important part of bitcoin mechanism. The motivation of miners is profit. Their profit comes from two parts, block <br> reward and transaction fees. Since after mining every 210000 blocks, block rewards will be halved (staring from 50 BTC, now is 12.5   <br> BTC). With the decreasing of block rewards, transaction fees are becoming more and more important. With higher transaction fees,  <br>  the transaction may be accepted by miners sooner. And the price of bitcoin can also influence the activity of bitcoin market. <br>  Therefore, we want to build a model between block rewards, transaction fees, price, and waiting time. Transaction makers and  <br> miners will make their choice according to their profits.
 
 2.	Model
 2.1	Poisson Process

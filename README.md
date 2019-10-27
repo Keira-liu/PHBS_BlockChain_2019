@@ -34,8 +34,7 @@ As for other models, the main model is using economy model to simulate the suppl
 
 
 
-References <br>
-
+### References <br>
 Huberman, G., Leshno, J.D., Moallemi, C., 2017. Monopoly Without a Monopolist: An Economic Analysis of the Bitcoin Payment System. Unpublished working paper. Columbia Business School, New York. <br>
 David Easley, D., O’Hara, M., Basu, S., 2019. The evolution of bitcoin transaction fees. Journal of Financial Economics, 134 (2019) 91–109<br>
 Houy, N.,2014. The economics of Bitcoin transaction fees. <br>
